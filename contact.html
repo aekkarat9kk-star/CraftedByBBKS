@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CraftedBy BBKS</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">CraftedBy BBKS</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="cta-button" style="padding: 0.4rem 1.2rem;">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact" class="fade-in">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>สนใจร่วมงานกับเรา หรือมีคำถามเพิ่มเติม? ติดต่อมาได้เลย!</p>
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="cta-button" target="_blank">
+                    <i class="fa-solid fa-envelope"></i> Send us an Email
+                </a>
+                <a href="https://www.facebook.com/aekkarat.caramelx" class="cta-button" style="margin-left: 1rem;" target="_blank">
+                    <i class="fab fa-facebook"></i> Send us a Message
+                </a>
+            </div>
+        </section>
+
+        <section id="comment-section" class="fade-in">
+            <div class="container">
+                <h2>Leave a Comment</h2>
+                <p>ร่วมแสดงความคิดเห็นหรือติชมผลงานของเราได้ที่นี่</p>
+                <form class="comment-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Your Comment</label>
+                        <textarea id="comment" name="comment" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Submit Comment</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CraftedBy BBKS. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
